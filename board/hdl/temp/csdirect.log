@@ -1,0 +1,13 @@
+
+CSDirect 16.5-S056 (v16-5-13EB)
+Netlisting block sch
+Processing page 1
+WARNING(SPCOCD-22): The specified property: SPLIT_INST = TRUE was ignored for the instance: atsam3u1cb-au, PATH: i3 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: i3  Cell name: atsam3u1cb-au 
+WARNING(SPCOCD-22): The specified property: SPLIT_INST = TRUE was ignored for the instance: atsam3u1cb-au, PATH: i2 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: i2  Cell name: atsam3u1cb-au 
+WARNING(SPCOCD-22): The specified property: SPLIT_INST = TRUE was ignored for the instance: atsam3u1cb-au, PATH: i1 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: i1  Cell name: atsam3u1cb-au 

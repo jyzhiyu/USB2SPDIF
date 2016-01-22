@@ -1,0 +1,12 @@
+ConceptHDL - Constraint Manager Synchronization Log
+====================================================
+
+
+
+----------------------------
+Running audit on all the signal models present in design.
+----------------------------
+
+----------------------------
+Audit revealed 0 instances in the design with missing model information.
+----------------------------

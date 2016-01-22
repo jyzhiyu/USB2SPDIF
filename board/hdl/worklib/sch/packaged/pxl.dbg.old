@@ -1,0 +1,45 @@
+Log File: C:\Users\jyzhiyu\AppData\Local\Temp\s4v4.
+Markers File: C:\Users\jyzhiyu\AppData\Local\Temp\s4v4.1
+Debug File: C:\Users\jyzhiyu\AppData\Local\Temp\s4v4.3
+     Debug[0] := TRUE
+Elapsed time since start = (00:00:00)
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Elapsed time since start = (00:00:01)
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+Elapsed time since start = (00:00:01)
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+Elapsed time since start = (00:00:01)
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+DDB_INFO: State file for design SCH successfully written.
+DDB_INFO: Pst files for design SCH successfully written.

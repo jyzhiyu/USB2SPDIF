@@ -5,6 +5,8 @@
     (Folder "Library"
       (File
          "C:\Users\jyzhiyu\Desktop\HDK_RTL8711AF_QFN48_Fixture_V01_20150723\Schematic\usb2interface.OLB"
+        (Type "Schematic Library"))
+      (File ".\usb2interface.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\board-usb2interface.dsn"
@@ -13,31 +15,34 @@
     (CompileFileAddedOrDeleted "x"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (TUSB2140B
+      (FullPartName "TUSB2140B.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\MISC3.OLB")
+      (DeviceIndex "0"))
+    (SAM3U1C
+      (FullPartName "SAM3U1C-3.Normal")
+      (LibraryName
+         "C:\USERS\JYZHIYU\DESKTOP\HDK_RTL8711AF_QFN48_FIXTURE_V01_20150723\SCHEMATIC\USB2INTERFACE.OLB")
+      (DeviceIndex "2")))
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\jyzhiyu\Dropbox\work\USB2SPDIF\board\sch\board-usb2interface.dsn")
+      (Path "Design Resources"
+         "C:\Users\jyzhiyu\Dropbox\work\USB2SPDIF\board\sch\board-usb2interface.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" "Library"
-         "C:\Users\jyzhiyu\Desktop\HDK_RTL8711AF_QFN48_Fixture_V01_20150723\Schematic\usb2interface.OLB"))
+      (Path "Design Resources" "Library"
+         "C:\Users\jyzhiyu\Dropbox\work\USB2SPDIF\board\sch\usb2interface.olb")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 200 0 568"))
       (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1696 125 731")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "315 197")
-        (Zoom "166"))
-      (Path
-         "C:\USERS\JYZHIYU\DESKTOP\HDK_RTL8711AF_QFN48_FIXTURE_V01_20150723\SCHEMATIC\USB2INTERFACE.OLB")
-      (Package "SAM3U1C"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -52,12 +57,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1671 100 706")
-        (Scroll "0 0")
-        (Zoom "119")
+        (Placement "44 2 3 -1 -1 -8 -30 100 1671 100 706")
+        (Scroll "-225 -5")
+        (Zoom "89")
         (Occurrence "/"))
       (Path
          "C:\USERS\JYZHIYU\DROPBOX\WORK\USB2SPDIF\BOARD\SCH\BOARD-USB2INTERFACE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "02 USB")))
-  (MPSSessionName "jyzhiyu"))
+  (MPSSessionName "jyzhiyu")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.5\tools\capture\library"))

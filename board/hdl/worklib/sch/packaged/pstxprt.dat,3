@@ -1,0 +1,79 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 22-Jan-2016 AT 17:16:36 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SCH';
+ POST_TIME='22-Jan-2016 AT 17:16:36';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ U1 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I1@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i1@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i1@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ PATH='I1',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-5150,3850)',
+ ROT='0',
+ VER='1',
+ VALUE='atsam3u1cb-au',
+ SPLIT_INST_NAME='A',
+ SPLIT_INST='TRUE',
+ PACK_TYPE='SMT',
+ PART_NAME='ATSAM3U1CB-AU',
+ JEDEC_TYPE='LQFP100-P0_5',
+ CDS_LIB='usb2iterface_lib',
+ CDS_PART_NAME='ATSAM3U1CB-AU_SMT-LQFP100-P0_5',
+ PRIM_FILE='./worklib/atsam3u1cb#2dau/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I2@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i2@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i2@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ PATH='I2',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-4275,3600)',
+ ROT='0',
+ VER='2',
+ VALUE='atsam3u1cb-au',
+ SPLIT_INST_NAME='B',
+ SPLIT_INST='TRUE',
+ PACK_TYPE='SMT',
+ PART_NAME='ATSAM3U1CB-AU',
+ JEDEC_TYPE='LQFP100-P0_5',
+ CDS_LIB='usb2iterface_lib',
+ CDS_PART_NAME='ATSAM3U1CB-AU_SMT-LQFP100-P0_5',
+ PRIM_FILE='./worklib/atsam3u1cb#2dau/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I3@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i3@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i3@usb2iterface_lib.\atsam3u1cb-au\(~
+chips)',
+ PATH='I3',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ PHYS_PAGE='1',
+ XY='(-3425,3775)',
+ ROT='0',
+ VER='3',
+ VALUE='atsam3u1cb-au',
+ SPLIT_INST_NAME='C',
+ SPLIT_INST='TRUE',
+ PACK_TYPE='SMT',
+ PART_NAME='ATSAM3U1CB-AU',
+ JEDEC_TYPE='LQFP100-P0_5',
+ CDS_LIB='usb2iterface_lib',
+ CDS_PART_NAME='ATSAM3U1CB-AU_SMT-LQFP100-P0_5',
+ PRIM_FILE='./worklib/atsam3u1cb#2dau/chips/chips.prt';
+
+END.

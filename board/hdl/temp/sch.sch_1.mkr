@@ -1,0 +1,77 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 1)
+   (short_msg "WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i3 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (Concept)
+Description : WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i3 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  i3
+    cell name: atsam3u1cb-au
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst i3;")
+     (parent_canonical_name "DRAWERROR INST i3")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 2)
+   (short_msg "WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i2 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (Concept)
+Description : WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i2 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  i2
+    cell name: atsam3u1cb-au
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst i2;")
+     (parent_canonical_name "DRAWERROR INST i2")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 3)
+   (short_msg "WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i1 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (Concept)
+Description : WARNING(SPCOCD-22): The specified property: SPLIT_INST = true was ignored for the instance: atsam3u1cb-au, PATH: i1 because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  i1
+    cell name: atsam3u1cb-au
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst i1;")
+     (parent_canonical_name "DRAWERROR INST i1")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+ )
+)

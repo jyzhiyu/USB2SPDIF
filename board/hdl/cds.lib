@@ -1,0 +1,2 @@
+DEFINE usb2iterface_lib worklib
+INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib

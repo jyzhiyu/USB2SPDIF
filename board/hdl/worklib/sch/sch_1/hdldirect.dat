@@ -1,0 +1,14 @@
+(
+ (file_type "hdldirect.dat" "1.0" )
+ (design_name "sch" )
+ (view "sch_1" )
+ (modtime "verilog.v" 1453453703 9215 )
+ (timescale "1ns/1ns" )
+ (cells "ATSAM3U1CB-AU" )
+ (global_signals )
+ (single_page 
+  ("" 
+   ("page1_I1" "ATSAM3U1CB-AU" )
+   ("page1_I2" "ATSAM3U1CB-AU" )
+   ("page1_I3" "ATSAM3U1CB-AU" )))
+ (multiple_pages ))

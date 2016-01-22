@@ -1,0 +1,77 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "HDL_Direct")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 1)
+   (short_msg "WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I3 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (HDL Direct)
+Description : WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I3 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  I3
+    cell name: ATSAM3U1CB-AU
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst I3;")
+     (parent_canonical_name "DRAWERROR INST I3")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "HDL_Direct")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 2)
+   (short_msg "WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I2 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (HDL Direct)
+Description : WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I2 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  I2
+    cell name: ATSAM3U1CB-AU
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst I2;")
+     (parent_canonical_name "DRAWERROR INST I2")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "HDL_Direct")
+   (class "SCHEMATIC")
+   (severity 30)
+   (error_num 3)
+   (short_msg "WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I1 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.")
+   (long_msg "Severity : Warning (HDL Direct)
+Description : WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I1 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object dump: 
+{
+    page:  1
+    instance:  I1
+    cell name: ATSAM3U1CB-AU
+}
+")
+   (location
+    (
+     (object_kind "Instance")
+     (canonical_name "_!drawerror inst I1;")
+     (parent_canonical_name "DRAWERROR INST I1")
+     (drawing_name "@usb2iterface_lib.sch(sch_1):page1")
+    )
+   )
+  )
+ )
+)

@@ -1,0 +1,46 @@
+Reading Configuration: usb2iterface_lib sch cfg_package
+
+
+Calling HDLDirect with lib.cell:view usb2iterface_lib.sch:sch_1
+
+*********************************************************************
+Netlisting Errors   : 0
+Netlisting Warnings : 3
+*********************************************************************
+
+ HDL Direct 16.5-S048 (v16-5-13DK) 9/23/2013 
+Copyright (C) 1996 Cadence Design Systems, Inc.
+
+Processing cell view:   SCH(SCH_1)
+
+Generating for languages: Verilog 
+Processing page 1
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I3 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I3  Cell name: ATSAM3U1CB-AU 
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I2 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I2  Cell name: ATSAM3U1CB-AU 
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I1 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I1  Cell name: ATSAM3U1CB-AU 
+Total number of pages: 1
+
+
+Generating Output File lib.cell:view usb2iterface_lib.sch:sch_1
+
+Design Entry HDL Direct: Created Netlist.
+
+
+
+*********************************************************************
+Total Netlisting Errors   : 0
+Total Netlisting Warnings : 3
+Error (Marker) File	  : temp/pkgNetlist.mkr
+*********************************************************************
+
+van.exe -q -nolinks -sironly -cdslib cds.lib -module "usb2iterface_lib.glbl:sch_cfg_package" -lib "usb2iterface_lib" -view "sch_cfg_package" -define VAN -globals "usb2iterface_lib.glbl:sch_cfg_package"
+van.exe  -nolinks -sironly -cdslib cds.lib "C:\Users\jyzhiyu\Dropbox\work\USB2SPDIF\board\hdl\worklib\sch\sch_1\verilog.v" -lib "usb2iterface_lib" -view sch_1 -instanceview sch_1 -instanceview entity -define VAN -globals "usb2iterface_lib.glbl:sch_cfg_package" 

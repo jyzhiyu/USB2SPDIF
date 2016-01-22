@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="atsam3u1cb-au" library="usb2iterface_lib" partname="ATSAM3U1CB-AU" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="SMT"/>
+	</component>
+	<component cell="usb_microf" library="connector" partname="USB_MICROF" partno="00.29.08.0006" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="microUSB_B_4dip"/>
+	</component>
+	<component cell="res" library="discrete" partname="RES" partno="00.22.01.0039" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="39R|J|0603"/>
+	</component>
+	<component cell="tvs" library="diode" partname="TVS" partno="06.00.01.0046" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="SMBJ20A"/>
+	</component>
+</sc:shoppingCart>

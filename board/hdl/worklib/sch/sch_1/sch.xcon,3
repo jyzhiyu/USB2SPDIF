@@ -1,0 +1,39 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema CSSchema002.xsd">
+  <header>
+    <schemaVersion>16.5</schemaVersion>
+    <creatorTool>conceptHDL</creatorTool>
+    <modifierTool>conceptHDL</modifierTool>
+    <modificationTime>2016-01-22T17:08:20</modificationTime>
+    <savedLibrary>usb2iterface_lib</savedLibrary>
+  </header>
+  <designs>
+    <design schemaType="nameBased" name="sch" view="sch_1">
+      <lastids>
+      </lastids>
+      <cells>
+      </cells>
+      <nets>
+      </nets>
+      <aliases>
+      </aliases>
+      <differentialnets>
+      </differentialnets>
+      <differentialbusnets>
+      </differentialbusnets>
+      <netgroups>
+      </netgroups>
+      <netinterfaces>
+      </netinterfaces>
+      <instances>
+      </instances>
+      <templateresolutions>
+      </templateresolutions>
+      <templateinstances>
+      </templateinstances>
+      <extensions>
+      </extensions>
+    </design>
+  </designs>
+</schema>

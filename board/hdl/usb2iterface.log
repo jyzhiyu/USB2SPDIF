@@ -1,0 +1,3 @@
+LIBRARY NAME: usb2iterface_lib
+	CELL NAME: atsam3u1cb-au
+			 SPLBBK-5:Package 'ATSAM3U1CB-AU_SMT' : Pin numbers extracted from footprint lqfp100-p0_5.psm,Information

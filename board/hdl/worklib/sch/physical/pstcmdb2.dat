@@ -1,0 +1,38 @@
+( ConstraintFile "usb2interface"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 14 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "usb2interface"
+			)
+			( gate "U1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1" )
+			)
+		)
+	)
+)

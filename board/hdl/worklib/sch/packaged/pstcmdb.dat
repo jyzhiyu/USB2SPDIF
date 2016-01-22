@@ -1,0 +1,379 @@
+; Packager-XL run on 22-Jan-2016 AT 17:17:31 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "sch"
+	( constraintHeader
+		( objectKey
+			( physical )
+		)
+		( version
+			( 16.5 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 14 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SPLIT_NUMBER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "sch"
+				( objectFlag fObjectReadOnly )
+				( objectStatus sObjectLogicalNet )
+			)
+			( gate "U1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1" )
+			)
+			( gate "U1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2" )
+			)
+			( gate "U1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3" )
+			)
+			( pin "U1.35"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gnd1" )
+			)
+			( pin "U1.61"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gnd2" )
+			)
+			( pin "U1.89"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gnd3" )
+			)
+			( pin "U1.3"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gndana" )
+			)
+			( pin "U1.46"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gndbu" )
+			)
+			( pin "U1.72"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gndpll" )
+			)
+			( pin "U1.82"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:gndutmi" )
+			)
+			( pin "U1.78"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vbg" )
+			)
+			( pin "U1.1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddana" )
+			)
+			( pin "U1.45"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddbu" )
+			)
+			( pin "U1.9"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore1" )
+			)
+			( pin "U1.34"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore2" )
+			)
+			( pin "U1.59"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore3" )
+			)
+			( pin "U1.83"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore4" )
+			)
+			( pin "U1.87"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore5" )
+			)
+			( pin "U1.53"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddin" )
+			)
+			( pin "U1.22"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddio1" )
+			)
+			( pin "U1.36"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddio2" )
+			)
+			( pin "U1.60"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddio3" )
+			)
+			( pin "U1.88"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddio4" )
+			)
+			( pin "U1.52"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddout" )
+			)
+			( pin "U1.73"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddpll" )
+			)
+			( pin "U1.79"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1:vddutmi" )
+			)
+			( pin "U1.26"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa0/pgmncmd\" )
+			)
+			( pin "U1.27"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa1/pgmrdy\" )
+			)
+			( pin "U1.28"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa2/pgmnoe\" )
+			)
+			( pin "U1.29"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa3/pgmnvalid\" )
+			)
+			( pin "U1.30"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa4/pgmm0\" )
+			)
+			( pin "U1.31"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa5/pgmm1\" )
+			)
+			( pin "U1.32"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa6/pgmm2\" )
+			)
+			( pin "U1.33"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa7/pgmm3\" )
+			)
+			( pin "U1.37"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa8/pgmd0\" )
+			)
+			( pin "U1.38"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa9/pgmd1\" )
+			)
+			( pin "U1.39"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa10/pgmd2\" )
+			)
+			( pin "U1.40"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa11/pgmd3\" )
+			)
+			( pin "U1.41"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa12/pgmd4\" )
+			)
+			( pin "U1.10"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa13/pgmd5\" )
+			)
+			( pin "U1.11"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa14/pgmd6\" )
+			)
+			( pin "U1.12"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa15/pgmd7\" )
+			)
+			( pin "U1.13"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa16/pgmd8\" )
+			)
+			( pin "U1.14"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa17/pgmd9\" )
+			)
+			( pin "U1.17"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa18/pgmd10\" )
+			)
+			( pin "U1.18"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa19/pgmd11\" )
+			)
+			( pin "U1.19"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa20/pgmd12\" )
+			)
+			( pin "U1.20"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa21/pgmd13\" )
+			)
+			( pin "U1.5"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa22/pgmd14\" )
+			)
+			( pin "U1.21"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:\pa23/pgmd15\" )
+			)
+			( pin "U1.23"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa24" )
+			)
+			( pin "U1.24"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa25" )
+			)
+			( pin "U1.25"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa26" )
+			)
+			( pin "U1.96"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa27" )
+			)
+			( pin "U1.84"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa28" )
+			)
+			( pin "U1.85"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa29" )
+			)
+			( pin "U1.6"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa30" )
+			)
+			( pin "U1.86"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pa31" )
+			)
+			( pin "U1.90"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb0" )
+			)
+			( pin "U1.91"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb1" )
+			)
+			( pin "U1.92"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb2" )
+			)
+			( pin "U1.7"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb3" )
+			)
+			( pin "U1.8"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb4" )
+			)
+			( pin "U1.97"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb5" )
+			)
+			( pin "U1.98"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb6" )
+			)
+			( pin "U1.99"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb7" )
+			)
+			( pin "U1.100"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb8" )
+			)
+			( pin "U1.71"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb9" )
+			)
+			( pin "U1.70"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb10" )
+			)
+			( pin "U1.93"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb11" )
+			)
+			( pin "U1.94"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb12" )
+			)
+			( pin "U1.95"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb13" )
+			)
+			( pin "U1.69"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb14" )
+			)
+			( pin "U1.16"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb15" )
+			)
+			( pin "U1.15"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb16" )
+			)
+			( pin "U1.68"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb17" )
+			)
+			( pin "U1.67"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb18" )
+			)
+			( pin "U1.66"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb19" )
+			)
+			( pin "U1.65"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb20" )
+			)
+			( pin "U1.64"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb21" )
+			)
+			( pin "U1.63"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb22" )
+			)
+			( pin "U1.62"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb23" )
+			)
+			( pin "U1.58"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i2:pb24" )
+			)
+			( pin "U1.4"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:ad12bvref" )
+			)
+			( pin "U1.2"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:advref" )
+			)
+			( pin "U1.80"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:dfsdm" )
+			)
+			( pin "U1.81"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:dfsdp" )
+			)
+			( pin "U1.77"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:dhsdm" )
+			)
+			( pin "U1.76"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:dhsdp" )
+			)
+			( pin "U1.43"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:erase" )
+			)
+			( pin "U1.42"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:fwup" )
+			)
+			( pin "U1.48"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:jtagsel" )
+			)
+			( pin "U1.57"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:nrst" )
+			)
+			( pin "U1.47"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:nrstb" )
+			)
+			( pin "U1.56"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:\tck/swclk\" )
+			)
+			( pin "U1.51"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:tdi" )
+			)
+			( pin "U1.54"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:\tdo/traceswo\" )
+			)
+			( pin "U1.55"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:\tms/swdio\" )
+			)
+			( pin "U1.44"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:tst" )
+			)
+			( pin "U1.75"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:xin" )
+			)
+			( pin "U1.50"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:xin32" )
+			)
+			( pin "U1.74"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:xout" )
+			)
+			( pin "U1.49"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i3:xout32" )
+			)
+		)
+	)
+)

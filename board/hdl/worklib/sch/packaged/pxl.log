@@ -1,0 +1,171 @@
+
+
+
+
+    Cadence Design Systems, Inc.
+    Packager-XL 16.5-S051 (v16-5-13DR) WIN32 1/6/2014 12:00:00 IST
+    (C) Copyright 1994, Cadence Design Systems, Inc.
+
+    Run on Fri Jan 22 17:17:31 2016
+
+
+ **********************************************
+ *  Processing project file and command line  *
+ **********************************************
+
+
+
+    ANNOTATE  'BODY' 'PIN'
+    COMP_DEF_PROP  'ALT_SYMBOLS' 'JEDEC_TYPE' 'NC_PINS' 'MERGE_NC_PINS'
+                   'POWER_GROUP' 'POWER_PINS' 'MERGE_POWER_PINS' 'PINCOUNT'
+    COMP_INST_PROP  'GROUP' 'ROOM' 'REUSE_INSTANCE' 'REUSE_ID' 'REUSE_NAME'
+                    'SIGNAL_MODEL' 'DEFAULT_SIGNAL_MODEL'
+                    'VOLT_TEMP_SIGNAL_MODEL' 'SYMBOL_EDITED'
+                    'INCLUDE_IN_RF_TOPOLOGY' 'NO_XNET_CONNECTION'
+                    'EMBEDDED_PLACEMENT' 'ISRFELEMENT' 'RFELEMENTTYPE' 'RFLAYER'
+                    'RFLAYER1' 'RFLAYER2' 'RFLAYER3' 'RFLAYER4' 'RFLAYER5'
+                    'RFLAYER6' 'RFLAYER7' 'RFLAYER8' 'RFLAYER9' 'RFLAYER10'
+                    'RFLAYER11' 'RFLAYER12' 'RFLAYER13' 'RFLAYER14' 'RFLAYER15'
+                    'RFLAYER16' 'RFCOUPLINGMODE' 'RFFLIPMODE' 'RFANGLE'
+                    'RFANGLE1' 'RFWIDTH' 'RFWIDTH1' 'RFWIDTH2' 'RFWIDTH3'
+                    'RFWIDTH4' 'RFWIDTH5' 'RFWIDTH6' 'RFWIDTH7' 'RFWIDTH8'
+                    'RFWIDTH9' 'RFWIDTH10' 'RFWIDTH11' 'RFWIDTH12' 'RFWIDTH13'
+                    'RFWIDTH14' 'RFWIDTH15' 'RFWIDTH16' 'RFLENGTH' 'RFLENGTH1'
+                    'RFLENGTH2' 'RFLENGTH3' 'RFLENGTH4' 'RFLENGTH5' 'RFLENGTH6'
+                    'RFLENGTH7' 'RFLENGTH8' 'RFSPACING' 'RFSPACING1'
+                    'RFSPACING2' 'RFSPACING3' 'RFSPACING4' 'RFSPACING5'
+                    'RFSPACING6' 'RFSPACING7' 'RFSPACING8' 'RFSPACING9'
+                    'RFSPACING10' 'RFSPACING11' 'RFSPACING12' 'RFSPACING13'
+                    'RFSPACING14' 'RFSPACING15' 'RFOFFSETX' 'RFOFFSETY'
+                    'RFRADIUS' 'RFDEPTH' 'RFFREQUENCY' 'RFMITERFRACTION'
+                    'RFBENDMODE' 'RFNUMBERLEGS' 'RFNUMBERPAIRS' 'RFNUMBERTURNS'
+                    'RFCAPACITANCE' 'RFRESISTANCE' 'RFINDUCTANCE'
+                    'RFPADSTACKNAME' 'RFPADSSMNAME1' 'RFPADSSMNAME2'
+                    'RFPADBEGINLAYER' 'RFPADENDLAYER' 'RFPADLINEWIDTH1'
+                    'RFPADLINEWIDTH2' 'RFPADDIAMETER1' 'RFPADDIAMETER2'
+                    'RFPADLENGTH1' 'RFPADLENGTH2' 'RFHOLEDIAMETER' 'RFPADANGLE'
+                    'RFDRANAME' 'RFPADTYPE' 'RFUID' 'RFBLOCK' 'RFDCNET'
+                    'CDS_FSP_LIB_PART_MODEL' 'CDS_FSP_IS_FPGA'
+                    'CDS_FSP_INSTANCE_NAME' 'CDS_FSP_INSTANCE_ID'
+    SUPPRESS_GLOBAL_SHORT_CHECK OFF
+    DEBUG    0
+    DEFAULT_PHYS_DES_PREFIX U
+    FEEDBACK  'OFF'
+    MAX_ERRORS 999
+    NET_NAME_CHARS   @  -  !  #  %  &  (  )  *  .  /  :  ?  [  ]  ^  _  `  +
+                     =  >  0  1  2  3  4  5  6  7  8  9
+    NET_NAME_LENGTH 31
+    NUM_OLD_VERSIONS 3
+    OPTIMIZE OFF
+    REUSE_REFDES ON
+    OPF_OPTIMIZATION OFF
+    HARD_LOC_SEC OFF
+    FORCE_PTF_ENTRY OFF
+    REGENERATE_PHYSICAL_NET_NAME OFF
+    SCH_POWER_GROUP_WINS_OVER_PPT OFF
+    NULL_OPT_VALID OFF
+    USE_VECTOR_NOTATION ON
+    FILTER_ECS_FROM_XNET ON
+    OUTPUT  'ON'
+    PACKAGE_PROP  'GROUP' 'ROOM'
+    PART_TYPE_LENGTH 31
+    REF_DES_LENGTH 31
+    REPACKAGE OFF
+    ELECTRICAL_CONSTRAINTS ON
+    OVERWRITE_CONSTRAINTS OFF
+    RUN_DIR ./worklib/sch/packaged/
+    STRICT_PACKAGE_PROP  'REUSE_INSTANCE'
+    USE_LIBRARY_PPT ON
+    USE_STATE ON
+    WARNINGS ON
+    LIBRARY  'usb2iterface_lib' 'standard' 'connector' 'crystal_osc' 'diode'
+             'discrete' 'disp' 'itead_standard_lib' 'logic' 'mcu' 'misc_ic'
+             'module' 'motor' 'mtg' 'opamp' 'others' 'ram_flash' 'regulator'
+             'relay' 'sensor' 'socket' 'sonic_socket' 'std' 'switch'
+             'transformer' 'transistor'
+    CDSPROP_FILE 
+    VIEW_PTF part_table
+    VIEW_PACKAGER packaged
+    VIEW_CONSTRAINTS sch_1
+    DESIGN_LIBRARY usb2iterface_lib
+    DESIGN_NAME sch
+    VIEW_CONFIG_PHYSICAL cfg_package
+    SD_SUFFIX_SEPARATOR _
+    STOP_PST_GEN_ON_PTF_MISMATCH ON
+    IGNORE_PRIM_BINDING OFF
+    LOG_INST_PHYS_PATH ON
+    ANNOTATE_VISIBLE_SEC OFF
+    PTF_MISMATCH_EXCLUDE_INJ_PROP  'ALL'
+    IMPORT_HFS_HARDSEC_ON_SWAP_PINS OFF
+    ALLOW_PTFVALUE_INITIAL_BLANKS ON
+    PRESERVE_UNSUBSTITUTED_MACROS OFF
+    DETECT_SYS_NETSHORTS_PKG ON
+    PROCESS_PIN_SHORT_PROP OFF
+    STOP_PACKAGE_ON_SCHEMATIC_ERROR OFF
+    LOCK_FILE_PERM 444
+    LOCK_FOR_SAME_USER OFF
+    ERROR_ON_MISMATCHED_INTERFACE ON
+    RETAIN_ZERO_NODE_NETS OFF
+    IGNORE_ERR_EMPTY_LONGPARTNAME OFF
+    ERROR_ILLEGAL_QUOTE_PPT OFF
+    B2F_OVERWRITE_CONSTRAINTS OFF
+    CACHE_ENABLED OFF
+    CACHE_NAME cache
+    PTF_NAME cache
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+Creating Configuration "cfg_package" for Design "sch"
+
+INFO(SPCODD-181): Loading C:\Cadence\SPB_16.5\share\cdssetup\cdsprop.tmf.
+INFO(SPCODD-181): Loading C:\Cadence\SPB_16.5\share\cdssetup\cdsprop.paf.
+
+ *********************************
+ *  Loading the design database  *
+ *********************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Loading ./worklib/sch/packaged/pxl.state. 
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+INFO(SPCOPK-1442): No errors detected
+INFO(SPCOPK-1444): No warnings detected
+    Start time   17:17:31
+    End time     17:17:31
+    Elapsed time  0:00:00
+
+ ***************************************************************************
+ *  Packager-XL execution done.
+ ***************************************************************************
+Starting to audit ECsets in the design...
+Audit completed successfully.

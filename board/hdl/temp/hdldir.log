@@ -1,0 +1,26 @@
+ HDL Direct 16.5-S048 (v16-5-13DK) 9/23/2013 
+Copyright (C) 1996 Cadence Design Systems, Inc.
+
+Processing cell view:   SCH(SCH_1)
+
+Generating for languages: Verilog 
+Processing page 1
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I3 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I3  Cell name: ATSAM3U1CB-AU 
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I2 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I2  Cell name: ATSAM3U1CB-AU 
+
+WARNING(SPCOHD-22): The specified property: ATSAM3U1CB-AU = I1 was ignored for the instance: SPLIT_INST, PATH: true because two split properties are specified for the instance. Ensure that you specify either SPLIT_INST_NAME or SPLIT_INST for one instance.
+Object description:
+ Page: 1  Instance: I1  Cell name: ATSAM3U1CB-AU 
+Total number of pages: 1
+
+
+Generating Output File lib.cell:view usb2iterface_lib.sch:sch_1
+
+Design Entry HDL Direct: Created Netlist.
+

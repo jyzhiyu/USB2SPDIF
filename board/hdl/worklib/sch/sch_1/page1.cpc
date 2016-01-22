@@ -1,0 +1,24 @@
+#ISCELL
+  standard b#20size#20page *
+  *
+#ISCELL
+  standard supply_0 *
+  *
+#CELL
+  usb2iterface_lib atsam3u1cb-au *
+  page1_i1
+#CELL
+  usb2iterface_lib atsam3u1cb-au *
+  page1_i2
+#CELL
+  usb2iterface_lib atsam3u1cb-au *
+  page1_i3
+#CELL
+  connector usb_microf *
+  page1_i4
+#CELL
+  discrete res *
+  page1_i5
+#CELL
+  discrete res *
+  page1_i6

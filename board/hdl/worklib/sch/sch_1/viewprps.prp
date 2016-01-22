@@ -1,0 +1,650 @@
+(PropertyFile "1.0" 
+ (Creator " HDL Direct 16.5-S048 (v16-5-13DK) 9/23/2013" )
+ (Created "Fri Jan 22 17:08:23 2016" )
+ (Cell "sch" 
+  (View "sch_1" 
+   (Inst "page1_I1" 
+    (Pr 
+     ("CDS_LMAN_SYM_OUTLINE" "-225,525,225,-500" )
+     ("\\$location\\" "U?" )
+     ("JEDEC_TYPE" "lqfp100-P0_5" )
+     ("SPLIT_INST_NAME" "A" )
+     ("SPLIT_INST" "true" )
+     ("VALUE" "atsam3u1cb-au" )
+     ("PART_NAME" "ATSAM3U1CB-AU" )
+     ("CDS_LIB" "usb2iterface_lib" )
+     ("PACK_TYPE" "SMT" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(-2775,4125)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "XOUT32" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XOUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XIN32" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XIN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TST" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tms/swdio\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tdo/traceswo\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tck/swclk\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB24" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB23" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB22" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB21" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB20" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB19" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB18" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB17" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB16" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB15" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB14" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB13" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB12" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB11" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB10" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB9" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB8" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB7" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB6" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB5" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA31" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA30" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA29" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA28" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA27" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA26" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA25" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA24" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa23/pgmd15\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa22/pgmd14\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa21/pgmd13\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa20/pgmd12\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa19/pgmd11\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa18/pgmd10\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa17/pgmd9\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa16/pgmd8\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa15/pgmd7\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa14/pgmd6\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa13/pgmd5\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa12/pgmd4\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa11/pgmd3\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa10/pgmd2\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa9/pgmd1\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa8/pgmd0\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa7/pgmm3\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa6/pgmm2\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa5/pgmm1\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa4/pgmm0\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa3/pgmnvalid\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa2/pgmnoe\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa1/pgmrdy\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa0/pgmncmd\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "NRSTB" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "NRST" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "JTAGSEL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "FWUP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "ERASE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DHSDP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DHSDM" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DFSDP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DFSDM" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "ADVREF" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD12BVREF" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page1_I2" 
+    (Pr 
+     ("PACK_TYPE" "SMT" )
+     ("CDS_LIB" "usb2iterface_lib" )
+     ("PART_NAME" "ATSAM3U1CB-AU" )
+     ("VALUE" "atsam3u1cb-au" )
+     ("SPLIT_INST" "true" )
+     ("SPLIT_INST_NAME" "B" )
+     ("JEDEC_TYPE" "lqfp100-P0_5" )
+     ("\\$location\\" "U?" )
+     ("CDS_LMAN_SYM_OUTLINE" "-200,775,200,-825" )
+     ("ROT" "0" )
+     ("VER" "2" )
+     ("XY" "(-4100,2900)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "XOUT32" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XOUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XIN32" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "XIN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDUTMI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDPLL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDOUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE5" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDBU" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDANA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VBG" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TST" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tms/swdio\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tdo/traceswo\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "TDI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\tck/swclk\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "NRSTB" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "NRST" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "JTAGSEL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDUTMI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDPLL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDBU" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDANA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "FWUP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "ERASE" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DHSDP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DHSDM" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DFSDP" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "DFSDM" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "ADVREF" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "AD12BVREF" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" ))))
+   (Inst "page1_I3" 
+    (Pr 
+     ("PACK_TYPE" "SMT" )
+     ("CDS_LIB" "usb2iterface_lib" )
+     ("PART_NAME" "ATSAM3U1CB-AU" )
+     ("VALUE" "atsam3u1cb-au" )
+     ("SPLIT_INST" "true" )
+     ("SPLIT_INST_NAME" "C" )
+     ("JEDEC_TYPE" "lqfp100-P0_5" )
+     ("\\$location\\" "U?" )
+     ("CDS_LMAN_SYM_OUTLINE" "-225,500,225,-500" )
+     ("ROT" "0" )
+     ("VER" "3" )
+     ("XY" "(-2925,2925)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "VDDUTMI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDPLL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDOUT" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIO1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDIN" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE5" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDCORE1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDBU" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VDDANA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "VBG" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB24" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB23" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB22" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB21" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB20" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB19" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB18" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB17" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB16" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB15" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB14" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB13" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB12" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB11" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB10" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB9" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB8" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB7" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB6" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB5" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB4" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PB0" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA31" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA30" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA29" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA28" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA27" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA26" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA25" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "PA24" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa23/pgmd15\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa22/pgmd14\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa21/pgmd13\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa20/pgmd12\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa19/pgmd11\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa18/pgmd10\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa17/pgmd9\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa16/pgmd8\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa15/pgmd7\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa14/pgmd6\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa13/pgmd5\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa12/pgmd4\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa11/pgmd3\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa10/pgmd2\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa9/pgmd1\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa8/pgmd0\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa7/pgmm3\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa6/pgmm2\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa5/pgmm1\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa4/pgmm0\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa3/pgmnvalid\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa2/pgmnoe\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa1/pgmrdy\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "\\pa0/pgmncmd\\" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDUTMI" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDPLL" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDBU" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GNDANA" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND3" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND2" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))
+    (IPrt "GND1" 
+     (Pr 
+      ("CDS_NOT_ON_SYM" "TRUE" )))))))
