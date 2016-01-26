@@ -15,4 +15,56 @@
 		<property name="INDEX"  value="1"/>
 		<property name="VALUE"  value="SMBJ20A"/>
 	</component>
+	<component cell="fb" library="discrete" partname="FB" partno="24020000" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="100R/100MHz/0603"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="00.23.01.0016" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="10uF/25V/0603"/>
+	</component>
+	<component cell="res" library="discrete" partname="RES" partno="00.22.01.0355" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="39R|F|0603"/>
+	</component>
+	<component cell="res" library="discrete" partname="RES" partno="00.22.01.0614" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="6.8K|F|0603"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="00.23.01.0004" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="10pF/50V/0603"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="00.23.01.0009" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="100nF/50V/0603"/>
+	</component>
+	<component cell="tps736xxdbv" library="regulator" partname="TPS736XXDBV" partno="" quantity="1" >
+		<property name="JEDEC_TYPE"  value="SOT23-5"/>
+		<property name="VALUE"  value="33"/>
+	</component>
+	<component cell="res" library="discrete" partname="RES" partno="00.22.01.0097" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="10KR|J|0603"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="/" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="TBD/0603"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="/" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="TBD/0805"/>
+	</component>
+	<component cell="xtal4p" library="crystal_osc" partname="XTAL4P" partno="26010001" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="12MHz"/>
+	</component>
+	<component cell="cap" library="discrete" partname="CAP" partno="00.23.01.0011" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="12pF/50V/0603"/>
+	</component>
+	<component cell="con_4x1" library="connector" partname="CON_4X1" partno="00.29.01.0000" quantity="1" >
+		<property name="INDEX"  value="1"/>
+		<property name="VALUE"  value="zcz"/>
+	</component>
 </sc:shoppingCart>

@@ -1,29 +1,154 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 22-Jan-2016 AT 17:17:31 }
+{ Packager-XL run on 25-Jan-2016 AT 15:51:37 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='SCH';
- POST_TIME='22-Jan-2016 AT 17:17:31';
+ POST_TIME='25-Jan-2016 AT 15:51:37';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_SMT-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I8@DISCRETE.CAP(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i8@discrete.cap(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i8@discrete.cap(chips)',
+ PATH='I8',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7350,2600)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='Z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ C2 'CAP_SMT-10UF/25V/0603,1':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I9@DISCRETE.CAP(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i9@discrete.cap(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i9@discrete.cap(chips)',
+ PATH='I9',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-6775,2625)',
+ ROT='1',
+ VER='1',
+ VALUE='10UF/25V/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='CAP',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='CAP_SMT-10UF/25V/0603,1',
+ PRIM_FILE='Z:/logicsymbol/discrete/cap/chips/chips.prt';
+
+PART_NAME
+ J1 'USB_MICROF_SMT-MICROUSB_B_4DIPA':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I4@CONNECTOR.USB_MICROF(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i4@connector.usb_microf(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i4@connector.usb_microf(chips)',
+ PATH='I4',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7750,2175)',
+ ROT='2',
+ VER='1',
+ VALUE='MICROUSB_B_4DIP',
+ PACK_TYPE='SMT',
+ PART_NAME='USB_MICROF',
+ CDS_LIB='connector',
+ CDS_PART_NAME='USB_MICROF_SMT-MICROUSB_B_4DIPA',
+ PRIM_FILE='Z:/logicsymbol/connector/usb_microf/chips/chips.prt';
+
+PART_NAME
+ L1 'FB_SMT-100R/100MHZ/0603,1':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I7@DISCRETE.FB(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i7@discrete.fb(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i7@discrete.fb(chips)',
+ PATH='I7',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-7100,2975)',
+ ROT='0',
+ VER='1',
+ VALUE='100R/100MHZ/0603',
+ PACK_TYPE='SMT',
+ PART_NAME='FB',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='FB_SMT-100R/100MHZ/0603,1',
+ PRIM_FILE='Z:/logicsymbol/discrete/fb/chips/chips.prt';
+
+PART_NAME
+ R1 'RES_SMT-39R|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I5@DISCRETE.RES(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i5@discrete.res(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i5@discrete.res(chips)',
+ PATH='I5',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-5925,2100)',
+ ROT='0',
+ VER='1',
+ VALUE='39R|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-39R|J|0603,1',
+ PRIM_FILE='Z:/logicsymbol/discrete/res/chips/chips.prt';
+
+PART_NAME
+ R2 'RES_SMT-39R|J|0603,1':;
+
+SECTION_NUMBER 1
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I6@DISCRETE.RES(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i6@discrete.res(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i6@discrete.res(chips)',
+ PATH='I6',
+ DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
+ INDEX='1',
+ PHYS_PAGE='1',
+ XY='(-5925,1925)',
+ ROT='0',
+ VER='1',
+ VALUE='39R|J|0603',
+ PACK_TYPE='SMT',
+ PART_NAME='RES',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='RES_SMT-39R|J|0603,1',
+ PRIM_FILE='Z:/logicsymbol/discrete/res/chips/chips.prt';
 
 PART_NAME
  U1 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5':;
 
 SECTION_NUMBER 1
- '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I1@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
- C_PATH='@usb2iterface_lib.sch(sch_1):page1_i1@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- P_PATH='@usb2iterface_lib.sch(sch_1):page1_i1@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- PATH='I1',
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I12@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i12@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i12@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ PATH='I12',
  DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
  PHYS_PAGE='1',
- XY='(-5150,3850)',
+ XY='(-4375,3200)',
  ROT='0',
  VER='1',
  VALUE='atsam3u1cb-au',
- SPLIT_INST_NAME='A',
  SPLIT_INST='TRUE',
  PACK_TYPE='SMT',
  PART_NAME='ATSAM3U1CB-AU',
@@ -33,19 +158,18 @@ chips)',
  PRIM_FILE='./worklib/atsam3u1cb#2dau/chips/chips.prt';
 
 SECTION_NUMBER 2
- '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I2@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
- C_PATH='@usb2iterface_lib.sch(sch_1):page1_i2@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- P_PATH='@usb2iterface_lib.sch(sch_1):page1_i2@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- PATH='I2',
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I13@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i13@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i13@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ PATH='I13',
  DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
  PHYS_PAGE='1',
- XY='(-4275,3600)',
+ XY='(-3475,2500)',
  ROT='0',
  VER='2',
  VALUE='atsam3u1cb-au',
- SPLIT_INST_NAME='B',
  SPLIT_INST='TRUE',
  PACK_TYPE='SMT',
  PART_NAME='ATSAM3U1CB-AU',
@@ -55,19 +179,18 @@ chips)',
  PRIM_FILE='./worklib/atsam3u1cb#2dau/chips/chips.prt';
 
 SECTION_NUMBER 3
- '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I3@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
- C_PATH='@usb2iterface_lib.sch(sch_1):page1_i3@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- P_PATH='@usb2iterface_lib.sch(sch_1):page1_i3@usb2iterface_lib.\atsam3u1cb-au\(~
-chips)',
- PATH='I3',
+ '@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I11@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS)':
+ C_PATH='@usb2iterface_lib.sch(sch_1):page1_i11@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ P_PATH='@usb2iterface_lib.sch(sch_1):page1_i11@usb2iterface_lib.\atsam3u1cb-au\~
+(chips)',
+ PATH='I11',
  DRAWING='@USB2ITERFACE_LIB.SCH(SCH_1):PAGE1',
  PHYS_PAGE='1',
- XY='(-3425,3775)',
+ XY='(-5300,2650)',
  ROT='0',
  VER='3',
  VALUE='atsam3u1cb-au',
- SPLIT_INST_NAME='C',
  SPLIT_INST='TRUE',
  PACK_TYPE='SMT',
  PART_NAME='ATSAM3U1CB-AU',

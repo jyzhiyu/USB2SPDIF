@@ -3,8 +3,118 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd       |
-|                                                    Fri Jan 22 17:17:32 2016  |
+|                                                    Mon Jan 25 15:51:39 2016  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SUPPLY_0     pins ADDED TO this new net
+                                 C1.1                           
+                                 C2.1                           
+                                 J1.5                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_ATSAM3U1CB-AU_I11_DFS pins ADDED TO this new net
+                                 R1.2                           
+                                 U1.80                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_ATSAM3U1CB-AU_I11_DHS pins ADDED TO this new net
+                                 J1.2                           
+                                 R1.1                           
+                                 U1.77                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_ATSAM3U1CB-AU_I11_D_1 pins ADDED TO this new net
+                                 R2.2                           
+                                 U1.81                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_ATSAM3U1CB-AU_I11_D_2 pins ADDED TO this new net
+                                 J1.3                           
+                                 R2.1                           
+                                 U1.76                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAP_I8_2 pins ADDED TO this new net
+                                 C1.2                           
+                                 J1.1                           
+                                 L1.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD5         pins ADDED TO this new net
+                                 C2.2                           
+                                 L1.2                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  0                                              |
+|  C:.../work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd       |
+|                                                    Mon Jan 25 15:51:39 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP_SMT-10UF/25V/0603,1
+ FB_SMT-100R/100MHZ/0603,1
+ RES_SMT-39R|J|0603,1
+ USB_MICROF_SMT-MICROUSB_B_4DIPA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd       |
+|                                                    Mon Jan 25 15:51:39 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_SMT-10UF/25V/0603,1 
+ C2                  CAP_SMT-10UF/25V/0603,1 
+ J1                  USB_MICROF_SMT-MICROUSB_B_4DIPA 
+ L1                  FB_SMT-100R/100MHZ/0603,1 
+ R1                  RES_SMT-39R|J|0603,1  
+ R2                  RES_SMT-39R|J|0603,1  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd       |
+|                                                    Mon Jan 25 15:51:39 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      Z:/logicsymbol/discrete/cap/chips/chips.prt
+ C2.2                           PRIM_FILE      Z:/logicsymbol/discrete/cap/chips/chips.prt
+ J1.1                           PRIM_FILE      Z:/logicsymbol/connector/usb_microf/chips/chips.prt
+ L1.2                           PRIM_FILE      Z:/logicsymbol/discrete/fb/chips/chips.prt
+ R1.2                           PRIM_FILE      Z:/logicsymbol/discrete/res/chips/chips.prt
+ R2.2                           PRIM_FILE      Z:/logicsymbol/discrete/res/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd       |
+|                                                    Mon Jan 25 15:51:39 2016  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to board drawing                                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.1                           CDS_PINID      \1\
+ C1.2                           CDS_PINID      \2\
+ C2.1                           CDS_PINID      \1\
+ C2.2                           CDS_PINID      \2\
+ J1.1                           CDS_PINID      VBUS
+ J1.2                           CDS_PINID      \d-\
+ J1.3                           CDS_PINID      \d+\
+ J1.4                           CDS_PINID      ID
+ J1.5                           CDS_PINID      GND
+ L1.1                           CDS_PINID      \1\
+ L1.2                           CDS_PINID      \2\
+ R1.1                           CDS_PINID      \1\
+ R1.2                           CDS_PINID      \2\
+ R2.1                           CDS_PINID      \1\
+ R2.2                           CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  49                                             |
 |------------------------------------------------------------------------------|

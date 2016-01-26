@@ -1,25 +1,139 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014 on Fri Jan 22 17:32:10 2016
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014 on Tue Jan 26 19:49:03 2016
 #ISCELL
   standard b#20size#20page *
   *
 #ISCELL
   standard supply_0 *
   *
+#ISCELL
+  standard vcc_bar *
+  page1_i10
 #CELL
   usb2iterface_lib atsam3u1cb-au *
-  page1_i1
+  page1_i11
 #CELL
   usb2iterface_lib atsam3u1cb-au *
-  page1_i2
+  page1_i12
 #CELL
   usb2iterface_lib atsam3u1cb-au *
-  page1_i3
+  page1_i13
+#ISCELL
+  standard vcc_bar *
+  page1_i14
+#ISCELL
+  standard vcc_bar *
+  page1_i15
+#CELL
+  discrete res *
+  page1_i16
+#CELL
+  discrete cap *
+  page1_i17
+#CELL
+  discrete cap *
+  page1_i18
+#ISCELL
+  standard vcc_bar *
+  page1_i19
+#CELL
+  discrete cap *
+  page1_i20
+#CELL
+  discrete cap *
+  page1_i21
+#CELL
+  discrete cap *
+  page1_i22
+#CELL
+  discrete cap *
+  page1_i23
+#CELL
+  discrete cap *
+  page1_i24
+#CELL
+  discrete cap *
+  page1_i25
+#CELL
+  discrete cap *
+  page1_i26
+#CELL
+  discrete cap *
+  page1_i27
+#ISCELL
+  standard vcc_bar *
+  page1_i28
+#CELL
+  discrete cap *
+  page1_i30
+#CELL
+  discrete cap *
+  page1_i31
+#CELL
+  discrete cap *
+  page1_i32
+#CELL
+  discrete cap *
+  page1_i33
+#CELL
+  discrete cap *
+  page1_i34
+#CELL
+  discrete cap *
+  page1_i35
+#CELL
+  regulator tps736xxdbv *
+  page1_i36
+#CELL
+  discrete res *
+  page1_i37
+#CELL
+  discrete cap *
+  page1_i38
+#ISCELL
+  standard vcc_bar *
+  page1_i39
 #CELL
   connector usb_microf *
   page1_i4
+#CELL
+  discrete cap *
+  page1_i40
+#CELL
+  discrete cap *
+  page1_i41
+#CELL
+  crystal_osc xtal4p *
+  page1_i42
+#CELL
+  discrete cap *
+  page1_i43
+#CELL
+  discrete cap *
+  page1_i44
+#CELL
+  connector con_4x1 *
+  page1_i45
+#ISCELL
+  standard vcc_bar *
+  page1_i46
+#CELL
+  discrete res *
+  page1_i47
+#CELL
+  discrete res *
+  page1_i48
 #CELL
   discrete res *
   page1_i5
 #CELL
   discrete res *
   page1_i6
+#CELL
+  discrete fb *
+  page1_i7
+#CELL
+  discrete cap *
+  page1_i8
+#CELL
+  discrete cap *
+  page1_i9

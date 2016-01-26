@@ -1,18 +1,32 @@
-01/22/16  17:18:36		Opening project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm
-01/22/16  17:18:36		cdslib C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/cds.lib opened
-01/22/16  17:18:36		Project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm opened
-01/22/16  17:18:40		Loading cell atsam3u1cb-au from library usb2iterface_lib
-01/22/16  17:18:40		Loading view sym_3 of cell atsam3u1cb-au
-01/22/16  17:18:40		Loading view sym_2 of cell atsam3u1cb-au
-01/22/16  17:18:40		Loading view sym_1 of cell atsam3u1cb-au
-01/22/16  17:18:40		Loading view chips of cell atsam3u1cb-au
-01/22/16  17:18:40		Loading view entity of cell atsam3u1cb-au
-01/22/16  17:18:40		Loading cell atsam3u1cb-au from library usb2iterface_lib
-01/22/16  17:18:40		Analyzing view relationships of cell atsam3u1cb-au in library usb2iterface_lib
-01/22/16  17:18:40		Completed loading cell atsam3u1cb-au from library usb2iterface_lib
-01/22/16  17:18:40		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
-01/22/16  17:18:40		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
-01/22/16  17:19:50		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
-01/22/16  17:19:50		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
-01/22/16  17:19:51		Completed saving cell atsam3u1cb-au in library usb2iterface_lib 
-01/22/16  17:19:52		Project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm is closed.
+01/25/16  15:47:41		Opening project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm
+01/25/16  15:47:41		cdslib C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/cds.lib opened
+01/25/16  15:47:41		Project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm opened
+01/25/16  15:47:46		Loading cell atsam3u1cb-au from library usb2iterface_lib
+01/25/16  15:47:46		Loading view sym_3 of cell atsam3u1cb-au
+01/25/16  15:47:46		Loading view sym_2 of cell atsam3u1cb-au
+01/25/16  15:47:46		Loading view sym_1 of cell atsam3u1cb-au
+01/25/16  15:47:46		Loading view chips of cell atsam3u1cb-au
+01/25/16  15:47:46		Loading view entity of cell atsam3u1cb-au
+01/25/16  15:47:46		Loading cell atsam3u1cb-au from library usb2iterface_lib
+01/25/16  15:47:46		Analyzing view relationships of cell atsam3u1cb-au in library usb2iterface_lib
+01/25/16  15:47:46		Completed loading cell atsam3u1cb-au from library usb2iterface_lib
+01/25/16  15:47:46		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:47:46		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:04		The cell cannot be saved because symbol property SPLIT_INST contains an invalid value. Make sure that the SPLIT_INST value is always TRUE.
+01/25/16  15:48:04		The cell cannot be saved because symbol property SPLIT_INST contains an invalid value. Make sure that the SPLIT_INST value is always TRUE.
+01/25/16  15:48:12		The cell cannot be saved because symbol property SPLIT_INST contains an invalid value. Make sure that the SPLIT_INST value is always TRUE.
+01/25/16  15:48:12		The cell cannot be saved because symbol property SPLIT_INST contains an invalid value. Make sure that the SPLIT_INST value is always TRUE.
+01/25/16  15:48:15		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:15		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:15		Completed saving cell atsam3u1cb-au in library usb2iterface_lib 
+01/25/16  15:48:20		Part Developer validations ended
+01/25/16  15:48:39		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:39		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:40		Completed saving cell atsam3u1cb-au in library usb2iterface_lib 
+01/25/16  15:48:44		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:44		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:48:45		Completed saving cell atsam3u1cb-au in library usb2iterface_lib 
+01/25/16  15:49:40		Starting validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:49:40		Completed validations on cell atsam3u1cb-au of library usb2iterface_lib
+01/25/16  15:49:40		Completed saving cell atsam3u1cb-au in library usb2iterface_lib 
+01/25/16  15:49:42		Project C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/usb2iterface.cpm is closed.

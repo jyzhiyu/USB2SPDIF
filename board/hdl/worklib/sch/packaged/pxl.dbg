@@ -1,6 +1,6 @@
-Log File: C:\Users\jyzhiyu\AppData\Local\Temp\s2c0.
-Markers File: C:\Users\jyzhiyu\AppData\Local\Temp\s2c0.1
-Debug File: C:\Users\jyzhiyu\AppData\Local\Temp\s2c0.3
+Log File: C:\Users\jyzhiyu\AppData\Local\Temp\s6ek.
+Markers File: C:\Users\jyzhiyu\AppData\Local\Temp\s6ek.1
+Debug File: C:\Users\jyzhiyu\AppData\Local\Temp\s6ek.3
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -13,7 +13,10 @@ Elapsed time since start = (00:00:00)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:00)
+INFO(SPCODD-95): State file primitive @USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I1@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS) has been deleted from the design.
+INFO(SPCODD-95): State file primitive @USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I2@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS) has been deleted from the design.
+INFO(SPCODD-95): State file primitive @USB2ITERFACE_LIB.SCH(SCH_1):PAGE1_I3@USB2ITERFACE_LIB.ATSAM3U1CB-AU(CHIPS) has been deleted from the design.
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +27,7 @@ Elapsed time since start = (00:00:00)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,7 +38,7 @@ Elapsed time since start = (00:00:00)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

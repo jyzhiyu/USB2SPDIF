@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 15 )
+			( logicalViewRevNum 26 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -56,6 +56,22 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "INDEX" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
 	)
 	( designConstraints
 		( ruleChanges
@@ -64,71 +80,117 @@
 				( attribute "CDS_EDIT_PNS_STATUS" "1"
 					( Origin gFrontEnd )
 				)
-				( attribute "CDS_EXPORT_CONTENTS_MASK" "33330"
-				)
 			)
-			( gate "@usb2iterface_lib.sch(sch_1):page1_i1"
+			( signal "@usb2iterface_lib.sch(sch_1):supply_0"
+				( attribute "CDS_PHYS_NET_NAME" "SUPPLY_0"
+					( Origin gPackager )
+				)
+				( objectStatus "SUPPLY_0" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):unnamed_1_cap_i8_2"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_CAP_I8_2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_CAP_I8_2" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):vdd5"
+				( alias ( signalRef "@usb2iterface_lib.sch(sch_1):page1_vdd5") )
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( attribute "CDS_PHYS_NET_NAME" "VDD5"
+					( Origin gPackager )
+				)
+				( objectStatus "VDD5" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):page1_vdd5"
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_vdd5" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dfsdm\"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ATSAM3U1CB-AU_I11_DFS"
+					( Origin gPackager )
+				)
+				( attribute "PNN" "UNNAMED_1_ATSAM3U1CB-AU_I11_DFS"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ATSAM3U1CB-AU_I11_DFS" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dfsdp\"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ATSAM3U1CB-AU_I11_D_1"
+					( Origin gPackager )
+				)
+				( attribute "PNN" "UNNAMED_1_ATSAM3U1CB-AU_I11_D_1"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ATSAM3U1CB-AU_I11_D_1" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dhsdm\"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ATSAM3U1CB-AU_I11_DHS"
+					( Origin gPackager )
+				)
+				( attribute "PNN" "UNNAMED_1_ATSAM3U1CB-AU_I11_DHS"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ATSAM3U1CB-AU_I11_DHS" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dhsdp\"
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_1_ATSAM3U1CB-AU_I11_D_2"
+					( Origin gPackager )
+				)
+				( attribute "PNN" "UNNAMED_1_ATSAM3U1CB-AU_I11_D_2"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_1_ATSAM3U1CB-AU_I11_D_2" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i12_vbg\"
+				( objectStatus "unnamed_1_atsam3u1cb-au_i12_vbg" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):vdd3v3"
+				( alias ( signalRef "@usb2iterface_lib.sch(sch_1):page1_vdd3v3") )
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( objectStatus "vdd3v3" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):page1_vdd3v3"
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_vdd3v3" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):vddout"
+				( alias ( signalRef "@usb2iterface_lib.sch(sch_1):page1_vddout") )
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( objectStatus "vddout" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):page1_vddout"
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( objectFlag fObjectAlias )
+				( objectStatus "page1_vddout" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i13"
 				( attribute "CDS_LIB" "usb2iterface_lib"
 					( Origin gPackager )
 				)
-				( attribute "CDS_LMAN_SYM_OUTLINE" "-225,525,225,-500"
-					( Origin gPackager )
-				)
-				( attribute "JEDEC_TYPE" "lqfp100-P0_5"
-					( Origin gFrontEnd )
-				)
-				( attribute "PACK_TYPE" "SMT"
-					( Origin gFrontEnd )
-				)
-				( attribute "PART_NAME" "ATSAM3U1CB-AU"
-					( Origin gFrontEnd )
-				)
-				( attribute "PHYS_PAGE" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "ROT" "0"
-					( Origin gFrontEnd )
-				)
-				( attribute "SPLIT_INST" "TRUE"
-					( Origin gFrontEnd )
-				)
-				( attribute "SPLIT_INST_NAME" "A"
-					( Origin gFrontEnd )
-				)
-				( attribute "VALUE" "atsam3u1cb-au"
-					( Origin gFrontEnd )
-				)
-				( attribute "VER" "1"
-					( Origin gFrontEnd )
-				)
-				( attribute "XY" "(-5150,3850)"
-					( Origin gFrontEnd )
-				)
-				( attribute "CHIPS_PART_NAME" "ATSAM3U1CB-AU"
-					( Origin gPackager )
-				)
-				( attribute "CDS_PART_NAME" "ATSAM3U1CB-AU_SMT-LQFP100-P0_5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SPLIT_NUMBER" "1 of 3"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LOCATION" "U1"
-					( Origin gPackager )
-				)
-				( attribute "CDS_SEC" "1"
-					( Origin gPackager )
-				)
-				( attribute "LOCATION" "U1"
-					( Origin gPackager )
-				)
-				( attribute "SEC" "1"
-					( Origin gPackager )
-				)
-				( objectStatus "U1" )
-			)
-			( gate "@usb2iterface_lib.sch(sch_1):page1_i2"
-				( attribute "CDS_LIB" "usb2iterface_lib"
+				( attribute "CDS_LMAN_SPLIT_NUMBER" "2 of 3"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-200,775,200,-825"
@@ -152,25 +214,19 @@
 				( attribute "SPLIT_INST" "TRUE"
 					( Origin gFrontEnd )
 				)
-				( attribute "SPLIT_INST_NAME" "B"
-					( Origin gFrontEnd )
-				)
 				( attribute "VALUE" "atsam3u1cb-au"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-4275,3600)"
+				( attribute "XY" "(-3475,2500)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "ATSAM3U1CB-AU"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "ATSAM3U1CB-AU_SMT-LQFP100-P0_5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SPLIT_NUMBER" "2 of 3"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U1"
@@ -187,8 +243,368 @@
 				)
 				( objectStatus "U1" )
 			)
-			( gate "@usb2iterface_lib.sch(sch_1):page1_i3"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i12"
 				( attribute "CDS_LIB" "usb2iterface_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SPLIT_NUMBER" "1 of 3"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-225,525,225,-500"
+					( Origin gPackager )
+				)
+				( attribute "JEDEC_TYPE" "lqfp100-P0_5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "ATSAM3U1CB-AU"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SPLIT_INST" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "atsam3u1cb-au"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5300,4150)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "ATSAM3U1CB-AU"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "ATSAM3U1CB-AU_SMT-LQFP100-P0_5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "U1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U1" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i4"
+				( attribute "CDS_LIB" "connector"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,250,50,-250"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "USB_MICROF"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "MICROUSB_B_4DIP"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7750,2175)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "USB_MICROF"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "USB_MICROF_SMT-MICROUSB_B_4DIPA"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "J1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "J1" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i5"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "39R|F|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5925,2100)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-39R|F|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R1"
+					( Origin gPackager )
+				)
+				( objectStatus "R1" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i6"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "39R|F|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5925,1925)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-39R|F|0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "R2"
+					( Origin gPackager )
+				)
+				( objectStatus "R2" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i7"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "FB"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100R/100MHZ/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7025,2850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "FB"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "FB_SMT-100R/100MHZ/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "L1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "L1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "L1" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i8"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7300,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i9"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10UF/25V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6775,2525)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAP_SMT-10UF/25V/0603,1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2" )
+			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i11"
+				( attribute "CDS_LIB" "usb2iterface_lib"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SPLIT_NUMBER" "3 of 3"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LMAN_SYM_OUTLINE" "-225,500,225,-500"
@@ -212,25 +628,19 @@
 				( attribute "SPLIT_INST" "TRUE"
 					( Origin gFrontEnd )
 				)
-				( attribute "SPLIT_INST_NAME" "C"
-					( Origin gFrontEnd )
-				)
 				( attribute "VALUE" "atsam3u1cb-au"
 					( Origin gFrontEnd )
 				)
 				( attribute "VER" "3"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-3425,3775)"
+				( attribute "XY" "(-5300,2650)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "ATSAM3U1CB-AU"
 					( Origin gPackager )
 				)
 				( attribute "CDS_PART_NAME" "ATSAM3U1CB-AU_SMT-LQFP100-P0_5"
-					( Origin gPackager )
-				)
-				( attribute "CDS_LMAN_SPLIT_NUMBER" "3 of 3"
 					( Origin gPackager )
 				)
 				( attribute "CDS_LOCATION" "U1"
@@ -247,605 +657,1414 @@
 				)
 				( objectStatus "U1" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gnd1"
-				( attribute "PN" "35"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i16"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.35" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gnd2"
-				( attribute "PN" "61"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.61" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gnd3"
-				( attribute "PN" "89"
-					( Origin gPackager )
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.89" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gndana"
-				( attribute "PN" "3"
-					( Origin gPackager )
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.3" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gndbu"
-				( attribute "PN" "46"
-					( Origin gPackager )
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.46" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gndpll"
-				( attribute "PN" "72"
-					( Origin gPackager )
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.72" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:gndutmi"
-				( attribute "PN" "82"
-					( Origin gPackager )
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.82" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vbg"
-				( attribute "PN" "78"
-					( Origin gPackager )
+				( attribute "VALUE" "6.8K|F|0603"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.78" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddana"
-				( attribute "PN" "1"
-					( Origin gPackager )
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.1" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddbu"
-				( attribute "PN" "45"
-					( Origin gPackager )
+				( attribute "XY" "(-4500,4250)"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.45" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore1"
-				( attribute "PN" "9"
+				( attribute "CHIPS_PART_NAME" "RES"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.9" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore2"
-				( attribute "PN" "34"
+				( attribute "CDS_PART_NAME" "RES_SMT-6.8K|F|0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.34" )
+				( objectStatus "PAGE1_I16" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore3"
-				( attribute "PN" "59"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i17"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.59" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore4"
-				( attribute "PN" "83"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.83" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddcore5"
-				( attribute "PN" "87"
-					( Origin gPackager )
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.87" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddin"
-				( attribute "PN" "53"
-					( Origin gPackager )
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.53" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddio1"
-				( attribute "PN" "22"
-					( Origin gPackager )
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
 				)
-				( objectStatus "U1.22" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddio2"
-				( attribute "PN" "36"
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10PF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-4275,4250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.36" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddio3"
-				( attribute "PN" "60"
+				( attribute "CDS_PART_NAME" "CAP_SMT-10PF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.60" )
+				( objectStatus "PAGE1_I17" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddio4"
-				( attribute "PN" "88"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i18"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.88" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddout"
-				( attribute "PN" "52"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.52" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddpll"
-				( attribute "PN" "73"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7750,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.73" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i1:vddutmi"
-				( attribute "PN" "79"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.79" )
+				( objectStatus "PAGE1_I18" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa0/pgmncmd\"
-				( attribute "PN" "26"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i20"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.26" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa1/pgmrdy\"
-				( attribute "PN" "27"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.27" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa2/pgmnoe\"
-				( attribute "PN" "28"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7575,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.28" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa3/pgmnvalid\"
-				( attribute "PN" "29"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.29" )
+				( objectStatus "PAGE1_I20" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa4/pgmm0\"
-				( attribute "PN" "30"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i21"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.30" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa5/pgmm1\"
-				( attribute "PN" "31"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.31" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa6/pgmm2\"
-				( attribute "PN" "32"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7225,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.32" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa7/pgmm3\"
-				( attribute "PN" "33"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.33" )
+				( objectStatus "PAGE1_I21" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa8/pgmd0\"
-				( attribute "PN" "37"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i22"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.37" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa9/pgmd1\"
-				( attribute "PN" "38"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.38" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa10/pgmd2\"
-				( attribute "PN" "39"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7400,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.39" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa11/pgmd3\"
-				( attribute "PN" "40"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.40" )
+				( objectStatus "PAGE1_I22" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa12/pgmd4\"
-				( attribute "PN" "41"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i23"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.41" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa13/pgmd5\"
-				( attribute "PN" "10"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.10" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa14/pgmd6\"
-				( attribute "PN" "11"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6550,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.11" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa15/pgmd7\"
-				( attribute "PN" "12"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.12" )
+				( objectStatus "PAGE1_I23" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa16/pgmd8\"
-				( attribute "PN" "13"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i24"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.13" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa17/pgmd9\"
-				( attribute "PN" "14"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.14" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa18/pgmd10\"
-				( attribute "PN" "17"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6725,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.17" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa19/pgmd11\"
-				( attribute "PN" "18"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.18" )
+				( objectStatus "PAGE1_I24" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa20/pgmd12\"
-				( attribute "PN" "19"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i25"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.19" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa21/pgmd13\"
-				( attribute "PN" "20"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.20" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa22/pgmd14\"
-				( attribute "PN" "5"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6900,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.5" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:\pa23/pgmd15\"
-				( attribute "PN" "21"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.21" )
+				( objectStatus "PAGE1_I25" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa24"
-				( attribute "PN" "23"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i26"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.23" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa25"
-				( attribute "PN" "24"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.24" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa26"
-				( attribute "PN" "25"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7075,4450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.25" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa27"
-				( attribute "PN" "96"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.96" )
+				( objectStatus "PAGE1_I26" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa28"
-				( attribute "PN" "84"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i27"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.84" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa29"
-				( attribute "PN" "85"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.85" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa30"
-				( attribute "PN" "6"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7575,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.6" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pa31"
-				( attribute "PN" "86"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.86" )
+				( objectStatus "PAGE1_I27" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb0"
-				( attribute "PN" "90"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i30"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.90" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb1"
-				( attribute "PN" "91"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.91" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb2"
-				( attribute "PN" "92"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6725,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.92" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb3"
-				( attribute "PN" "7"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.7" )
+				( objectStatus "PAGE1_I30" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb4"
-				( attribute "PN" "8"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i31"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.8" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb5"
-				( attribute "PN" "97"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.97" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb6"
-				( attribute "PN" "98"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-6900,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.98" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb7"
-				( attribute "PN" "99"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.99" )
+				( objectStatus "PAGE1_I31" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb8"
-				( attribute "PN" "100"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i32"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.100" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb9"
-				( attribute "PN" "71"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.71" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb10"
-				( attribute "PN" "70"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7075,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.70" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb11"
-				( attribute "PN" "93"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.93" )
+				( objectStatus "PAGE1_I32" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb12"
-				( attribute "PN" "94"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i33"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.94" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb13"
-				( attribute "PN" "95"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.95" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb14"
-				( attribute "PN" "69"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7225,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.69" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb15"
-				( attribute "PN" "16"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.16" )
+				( objectStatus "PAGE1_I33" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb16"
-				( attribute "PN" "15"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i34"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.15" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb17"
-				( attribute "PN" "68"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.68" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb18"
-				( attribute "PN" "67"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7400,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.67" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb19"
-				( attribute "PN" "66"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.66" )
+				( objectStatus "PAGE1_I34" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb20"
-				( attribute "PN" "65"
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i35"
+				( attribute "CDS_LIB" "discrete"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.65" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb21"
-				( attribute "PN" "64"
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.64" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb22"
-				( attribute "PN" "63"
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "CAP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100NF/50V/0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-7750,3475)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAP"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.63" )
-			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb23"
-				( attribute "PN" "62"
+				( attribute "CDS_PART_NAME" "CAP_SMT-100NF/50V/0603,1"
 					( Origin gPackager )
 				)
-				( objectStatus "U1.62" )
+				( objectStatus "PAGE1_I35" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i2:pb24"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb24"
 				( attribute "PN" "58"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.58" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:ad12bvref"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb23"
+				( attribute "PN" "62"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.62" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb22"
+				( attribute "PN" "63"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.63" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb21"
+				( attribute "PN" "64"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.64" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb20"
+				( attribute "PN" "65"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.65" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb19"
+				( attribute "PN" "66"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.66" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb18"
+				( attribute "PN" "67"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.67" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb17"
+				( attribute "PN" "68"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.68" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb16"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.15" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb15"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.16" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb14"
+				( attribute "PN" "69"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.69" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb13"
+				( attribute "PN" "95"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.95" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb12"
+				( attribute "PN" "94"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.94" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb11"
+				( attribute "PN" "93"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.93" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb10"
+				( attribute "PN" "70"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.70" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb9"
+				( attribute "PN" "71"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.71" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb8"
+				( attribute "PN" "100"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.100" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb7"
+				( attribute "PN" "99"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.99" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb6"
+				( attribute "PN" "98"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.98" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb5"
+				( attribute "PN" "97"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.97" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb4"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.8" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb3"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.7" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb2"
+				( attribute "PN" "92"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.92" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb1"
+				( attribute "PN" "91"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.91" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb0"
+				( attribute "PN" "90"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.90" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa31"
+				( attribute "PN" "86"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.86" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa30"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.6" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa29"
+				( attribute "PN" "85"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.85" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa28"
+				( attribute "PN" "84"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.84" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa27"
+				( attribute "PN" "96"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.96" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa26"
+				( attribute "PN" "25"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.25" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa25"
+				( attribute "PN" "24"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.24" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pa24"
+				( attribute "PN" "23"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.23" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa23/pgmd15\"
+				( attribute "PN" "21"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.21" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa22/pgmd14\"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.5" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa21/pgmd13\"
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.20" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa20/pgmd12\"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.19" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa19/pgmd11\"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.18" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa18/pgmd10\"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.17" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa17/pgmd9\"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.14" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa16/pgmd8\"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.13" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa15/pgmd7\"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.12" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa14/pgmd6\"
+				( attribute "PN" "11"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.11" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa13/pgmd5\"
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.10" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa12/pgmd4\"
+				( attribute "PN" "41"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.41" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa11/pgmd3\"
+				( attribute "PN" "40"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.40" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa10/pgmd2\"
+				( attribute "PN" "39"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.39" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa9/pgmd1\"
+				( attribute "PN" "38"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.38" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa8/pgmd0\"
+				( attribute "PN" "37"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.37" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa7/pgmm3\"
+				( attribute "PN" "33"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.33" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa6/pgmm2\"
+				( attribute "PN" "32"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.32" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa5/pgmm1\"
+				( attribute "PN" "31"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.31" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa4/pgmm0\"
+				( attribute "PN" "30"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.30" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa3/pgmnvalid\"
+				( attribute "PN" "29"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.29" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa2/pgmnoe\"
+				( attribute "PN" "28"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.28" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa1/pgmrdy\"
+				( attribute "PN" "27"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.27" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:\pa0/pgmncmd\"
+				( attribute "PN" "26"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.26" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddutmi"
+				( attribute "PN" "79"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.79" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddpll"
+				( attribute "PN" "73"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.73" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddout"
+				( attribute "PN" "52"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.52" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddio4"
+				( attribute "PN" "88"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.88" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddio3"
+				( attribute "PN" "60"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.60" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddio2"
+				( attribute "PN" "36"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.36" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddio1"
+				( attribute "PN" "22"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.22" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddin"
+				( attribute "PN" "53"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.53" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddcore5"
+				( attribute "PN" "87"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.87" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddcore4"
+				( attribute "PN" "83"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.83" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddcore3"
+				( attribute "PN" "59"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.59" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddcore2"
+				( attribute "PN" "34"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.34" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddcore1"
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.9" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddbu"
+				( attribute "PN" "45"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.45" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vddana"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:vbg"
+				( attribute "PN" "78"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.78" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gndutmi"
+				( attribute "PN" "82"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.82" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gndpll"
+				( attribute "PN" "72"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.72" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gndbu"
+				( attribute "PN" "46"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.46" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gndana"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.3" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gnd3"
+				( attribute "PN" "89"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.89" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gnd2"
+				( attribute "PN" "61"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.61" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i12:gnd1"
+				( attribute "PN" "35"
+					( Origin gPackager )
+				)
+				( objectStatus "U1.35" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i4:\d+\"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( objectStatus "J1.3" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i4:\d-\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "J1.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i4:gnd"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( objectStatus "J1.5" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i4:id"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( objectStatus "J1.4" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i4:vbus"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "J1.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i5:\1\"
+				( objectStatus "R1.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i5:\2\"
+				( objectStatus "R1.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i6:\1\"
+				( objectStatus "R2.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i6:\2\"
+				( objectStatus "R2.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i7:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "L1.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i7:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "L1.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i8:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i8:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C1.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i9:\1\"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.1" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i9:\2\"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( objectStatus "C2.2" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:ad12bvref"
 				( attribute "PN" "4"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.4" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:advref"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:advref"
 				( attribute "PN" "2"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.2" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:dfsdm"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:dfsdm"
 				( attribute "PN" "80"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.80" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:dfsdp"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:dfsdp"
 				( attribute "PN" "81"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.81" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:dhsdm"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:dhsdm"
 				( attribute "PN" "77"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.77" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:dhsdp"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:dhsdp"
 				( attribute "PN" "76"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.76" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:erase"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:erase"
 				( attribute "PN" "43"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.43" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:fwup"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:fwup"
 				( attribute "PN" "42"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.42" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:jtagsel"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:jtagsel"
 				( attribute "PN" "48"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.48" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:nrst"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:nrst"
 				( attribute "PN" "57"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.57" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:nrstb"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:nrstb"
 				( attribute "PN" "47"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.47" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:\tck/swclk\"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:\tck/swclk\"
 				( attribute "PN" "56"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.56" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:tdi"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:tdi"
 				( attribute "PN" "51"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.51" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:\tdo/traceswo\"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:\tdo/traceswo\"
 				( attribute "PN" "54"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.54" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:\tms/swdio\"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:\tms/swdio\"
 				( attribute "PN" "55"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.55" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:tst"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:tst"
 				( attribute "PN" "44"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.44" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:xin"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:xin"
 				( attribute "PN" "75"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.75" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:xin32"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:xin32"
 				( attribute "PN" "50"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.50" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:xout"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:xout"
 				( attribute "PN" "74"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.74" )
 			)
-			( pin "@usb2iterface_lib.sch(sch_1):page1_i3:xout32"
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i11:xout32"
 				( attribute "PN" "49"
 					( Origin gPackager )
 				)
 				( objectStatus "U1.49" )
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i16:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i16:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i17:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i17:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i18:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i18:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i20:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i20:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i21:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i21:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i22:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i22:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i23:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i23:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i24:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i24:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i25:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i25:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i26:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i26:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i27:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i27:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i30:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i30:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i31:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i31:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i32:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i32:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i33:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i33:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i34:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i34:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i35:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i35:\2\"
 			)
 		)
 	)

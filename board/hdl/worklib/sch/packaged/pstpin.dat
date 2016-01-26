@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 22-Jan-2016 AT 17:17:31 }
-TIME=' COMPILATION ON 22-Jan-2016 AT 17:17:31';
+{ Packager-XL run on 25-Jan-2016 AT 15:51:37 }
+TIME=' COMPILATION ON 25-Jan-2016 AT 15:51:37';
 primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';body 'ATSAM3U1CB-AU';
     'GND1':'(35,0,0)';$S;
     'GND2':'(61,0,0)';$S;
@@ -102,5 +102,24 @@ primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';body 'ATSAM3U1CB-AU';
     'XIN32':'(0,0,50)';$S;
     'XOUT':'(0,0,74)';$S;
     'XOUT32':'(0,0,49)';$S;
+end_primitive;
+primitive 'CAP_SMT-10UF/25V/0603,1';body 'CAP';
+    '1':'(1)';
+    '2':'(2)';
+end_primitive;
+primitive 'FB_SMT-100R/100MHZ/0603,1';body 'FB';
+    '1':'(1)';
+    '2':'(2)';
+end_primitive;
+primitive 'RES_SMT-39R|J|0603,1';body 'RES';
+    '1':'(1)';
+    '2':'(2)';
+end_primitive;
+primitive 'USB_MICROF_SMT-MICROUSB_B_4DIPA';body 'USB_MICROF';
+    'VBUS':'(1)';
+    'D-':'(2)';
+    'D+':'(3)';
+    'ID':'(4)';
+    'GND':'(5)';
 end_primitive;
 END.

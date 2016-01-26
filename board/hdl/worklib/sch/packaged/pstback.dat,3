@@ -1,4 +1,4 @@
-{ Packager-XL run on 22-Jan-2016 AT 17:16:36 }
+{ Packager-XL run on 22-Jan-2016 AT 17:17:31 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@usb2iterface_lib.sch(sch_1):page1";
 BODY = "ATSAM3U1CB-AU","I1": LOCATION = "U1" #&CDS_LOCATION = "U1" &SEC = "1" #&CDS_SEC = "1";

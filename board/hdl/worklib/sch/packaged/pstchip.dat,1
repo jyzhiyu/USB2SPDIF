@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 22-Jan-2016 AT 17:14:00 }
+{ Packager-XL run on 22-Jan-2016 AT 17:14:58 }
 primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';
   pin
     'GND1':

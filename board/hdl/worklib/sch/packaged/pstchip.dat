@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 22-Jan-2016 AT 17:17:31 }
+{ Packager-XL run on 25-Jan-2016 AT 15:51:37 }
 primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';
   pin
     'GND1':
@@ -811,6 +811,162 @@ primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';
       CLASS='IC';
       PARENT_PART_TYPE='ATSAM3U1CB-AU_SMT';
       SCH_MODIFIED_PART='TRUE';
+  end_body;
+end_primitive;
+primitive 'CAP_SMT-10UF/25V/0603,1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='CAP';
+      BODY_NAME='CAP';
+      JEDEC_TYPE='STD0603';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      PCS='1';
+      PACK_TYPE='SMT';
+      PART_NUMBER='00.23.01.0016';
+      PARENT_PART_TYPE='CAP_SMT';
+      PARENT_PPT='CAP';
+      PARENT_PPT_PART='CAP-10UF/25V/0603,1';
+  end_body;
+end_primitive;
+primitive 'FB_SMT-100R/100MHZ/0603,1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='FB';
+      BODY_NAME='FB';
+      JEDEC_TYPE='STD0603';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+      PCS='1';
+      PACK_TYPE='SMT';
+      PART_NUMBER='24020000';
+      PARENT_PART_TYPE='FB_SMT';
+      PARENT_PPT='FB';
+      PARENT_PPT_PART='FB-100R/100MHZ/0603,1';
+  end_body;
+end_primitive;
+primitive 'RES_SMT-39R|J|0603,1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='RES';
+      BODY_NAME='RES';
+      JEDEC_TYPE='STD0603';
+      PHYS_DES_PREFIX='R';
+      CLASS='DISCRETE';
+      PCS='1';
+      PACK_TYPE='SMT';
+      PART_NUMBER='00.22.01.0039';
+      PARENT_PART_TYPE='RES_SMT';
+      PARENT_PPT='RES';
+      PARENT_PPT_PART='RES-39R|J|0603,1';
+  end_body;
+end_primitive;
+primitive 'USB_MICROF_SMT-MICROUSB_B_4DIPA';
+  pin
+    'VBUS':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'D-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'D+':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'ID':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='USB_MICROF';
+      BODY_NAME='USB_MICROF';
+      JEDEC_TYPE='MICROUSB_B_4DIP';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      PCS='1';
+      PACK_TYPE='SMT';
+      PART_NUMBER='00.29.08.0006';
+      PARENT_PART_TYPE='USB_MICROF_SMT';
+      PARENT_PPT='USB_MICROF';
+      PARENT_PPT_PART='USB_MICROF-MICROUSB_B_4DIP,1';
   end_body;
 end_primitive;
 END.

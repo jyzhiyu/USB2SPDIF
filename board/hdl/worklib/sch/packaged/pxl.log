@@ -6,7 +6,7 @@
     Packager-XL 16.5-S051 (v16-5-13DR) WIN32 1/6/2014 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Fri Jan 22 17:17:31 2016
+    Run on Mon Jan 25 15:51:37 2016
 
 
  **********************************************
@@ -127,6 +127,11 @@ INFO(SPCODD-181): Loading C:\Cadence\SPB_16.5\share\cdssetup\cdsprop.paf.
  *  Loading the design database  *
  *********************************
 
+INFO(SPCODD-181): Loading Z:/logicsymbol/connector/usb_microf/part_table/part.~
+ptf.
+INFO(SPCODD-181): Loading Z:/logicsymbol/discrete/res/part_table/part.ptf.
+INFO(SPCODD-181): Loading Z:/logicsymbol/discrete/fb/part_table/part.ptf.
+INFO(SPCODD-181): Loading Z:/logicsymbol/discrete/cap/part_table/part.ptf.
 
  *************************
  *  Loading State Files  *
@@ -160,9 +165,9 @@ Loading ./worklib/sch/packaged/pxl.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time   17:17:31
-    End time     17:17:31
-    Elapsed time  0:00:00
+    Start time   15:51:37
+    End time     15:51:38
+    Elapsed time  0:00:01
 
  ***************************************************************************
  *  Packager-XL execution done.

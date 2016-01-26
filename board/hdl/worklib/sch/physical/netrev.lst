@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : usb2interface.brd                             )
 (    Software Version : 16.5S056                                      )
-(    Date/Time        : Fri Jan 22 17:17:32 2016                      )
+(    Date/Time        : Mon Jan 25 15:51:39 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -26,7 +26,7 @@ CmdLine: netrev -proj C:\Users\jyzhiyu\Dropbox\work\USB2SPDIF\board\hdl\usb2iter
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstchip.dat 
-   Finished reading C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstchip.dat (00:00:00.23)
+   Finished reading C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstchip.dat (00:00:00.24)
 Starting to read C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstxprt.dat 
    Finished reading C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstxnet.dat 
@@ -40,11 +40,11 @@ Starting to read C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/p
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/jyzhiyu/AppData/Local/Temp/#Taaaaac02716.tmp
-	Start time: Fri Jan 22 17:17:32 2016
+	Allegro Baseline:   C:/Users/jyzhiyu/AppData/Local/Temp/#Taaaaad06708.tmp
+	Start time: Mon Jan 25 15:51:39 2016
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri Jan 22 17:17:33 2016
+Finished Constraint Update	Time: Mon Jan 25 15:51:39 2016
 ===========================================================
 
 ------ Library Paths ------
@@ -74,9 +74,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 22 17:17:32 2016
+netrev run on Jan 25 15:51:39 2016
    DESIGN NAME : 'SCH'
-   PACKAGING ON 22-Jan-2016 AT 17:17:31
+   PACKAGING ON 25-Jan-2016 AT 15:51:37
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -106,6 +106,6 @@ netrev run on Jan 22 17:17:32 2016
  No oversight detected
  No warning detected
 
-cpu time      0:01:42
+cpu time      0:01:53
 elapsed time  0:00:01
 

@@ -4,5 +4,9 @@
                     - PART SUMMARY -
 
 ATSAM3U1CB-AU_SMT-LQFP100-P0_5		1
+CAP_SMT-10UF/25V/0603,1	00.23.01.0016	2
+FB_SMT-100R/100MHZ/0603,1	24020000	1
+RES_SMT-39R|J|0603,1	00.22.01.0039	2
+USB_MICROF_SMT-MICROUSB_B_4DIPA	00.29.08.0006	1
 
-Total                                       1
+Total                                       7

@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 14 )
+			( logicalViewRevNum 21 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -30,8 +30,52 @@
 			( allRules )
 			( design "usb2interface"
 			)
+			( signal "SUPPLY_0"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):supply_0" )
+			)
+			( signal "UNNAMED_1_CAP_I8_2"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):unnamed_1_cap_i8_2" )
+			)
+			( signal "VDD5"
+				( attribute "VOLTAGE" "5"
+					( Units "uVoltage" "V" 1.000000)
+					( Status sAliasFlattened )
+					( Origin gFrontEnd )
+				)
+				( objectStatus "@usb2iterface_lib.sch(sch_1):vdd5" )
+			)
+			( signal "UNNAMED_1_ATSAM3U1CB-AU_I11_DFS"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dfsdm\" )
+			)
+			( signal "UNNAMED_1_ATSAM3U1CB-AU_I11_D_1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dfsdp\" )
+			)
+			( signal "UNNAMED_1_ATSAM3U1CB-AU_I11_DHS"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dhsdm\" )
+			)
+			( signal "UNNAMED_1_ATSAM3U1CB-AU_I11_D_2"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_dhsdp\" )
+			)
 			( gate "U1"
-				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i1" )
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i13" )
+			)
+			( gate "J1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i4" )
+			)
+			( gate "R1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i5" )
+			)
+			( gate "R2"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i6" )
+			)
+			( gate "L1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i7" )
+			)
+			( gate "C1"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i8" )
+			)
+			( gate "C2"
+				( objectStatus "@usb2iterface_lib.sch(sch_1):page1_i9" )
 			)
 		)
 	)

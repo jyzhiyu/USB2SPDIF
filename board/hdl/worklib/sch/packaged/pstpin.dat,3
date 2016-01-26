@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 22-Jan-2016 AT 17:16:36 }
-TIME=' COMPILATION ON 22-Jan-2016 AT 17:16:36';
+{ Packager-XL run on 22-Jan-2016 AT 17:17:31 }
+TIME=' COMPILATION ON 22-Jan-2016 AT 17:17:31';
 primitive 'ATSAM3U1CB-AU_SMT-LQFP100-P0_5';body 'ATSAM3U1CB-AU';
     'GND1':'(35,0,0)';$S;
     'GND2':'(61,0,0)';$S;
