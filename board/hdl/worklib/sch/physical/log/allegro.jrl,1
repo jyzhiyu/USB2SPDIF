@@ -1,0 +1,15 @@
+\t (00:00:00) allegro 16.5 S057 (v16-5-13DL) i86
+\t (00:00:00)     Journal start - Fri Jan 22 17:07:57 2016
+\t (00:00:00)         Host=RD-ZHENGZHIYU User=jyzhiyu Pid=7184 CPUs=4
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 635
+\i (00:00:00) trapsize 624
+\i (00:00:01) trapsize 637
+\i (00:00:01) trapsize 1044
+\i (00:00:01) generaledit 
+\i (00:00:03) save_as 
+\i (00:00:09) fillin "usb2interface.brd"
+\i (00:00:10) generaledit 
+\i (00:00:11) exit 
+\t (00:00:11)     Journal end - Fri Jan 22 17:08:09 2016

@@ -7,9 +7,9 @@
   (library "usb2iterface_lib")
   (design "sch"
     (lastIds
-      (lastInstanceId 40)
-      (lastNetId 28)
-      (lastInstTermId 276)
+      (lastInstanceId 41)
+      (lastNetId 32)
+      (lastInstTermId 278)
     )
     (cells
       ("S2" "atsam3u1cb-au" "usb2iterface_lib" "sym_1"
@@ -197,6 +197,10 @@
       ("N26" "unnamed_1_con4x1_i45_3" -1 -1 0 )
       ("N27" "urxd" -1 -1 0 )
       ("N28" "utxd" -1 -1 0 )
+      ("N29" "iis-bck" -1 -1 0 )
+      ("N30" "iis-data" -1 -1 0 )
+      ("N31" "iis-ws" -1 -1 0 )
+      ("N32" "unnamed_1_atsam3u1cb-au_i11_fwup" -1 -1 0 )
       ("N1" "supply_0" -1 -1 2 )
       ("N7" "vdd5" -1 -1 2 )
       ("N14" "vdd3v3" -1 -1 2 )
@@ -335,6 +339,9 @@
           ("M122" "T87" -1 -1
           )
           ("M123" "T88" -1 -1
+            (conn
+              ("0" -1 -1 "N32" -1 -1)
+            )
           )
           ("M124" "T89" -1 -1
           )
@@ -557,14 +564,23 @@
           ("M184" "T49" -1 -1
           )
           ("M185" "T50" -1 -1
+            (conn
+              ("0" -1 -1 "N30" -1 -1)
+            )
           )
           ("M186" "T51" -1 -1
           )
           ("M187" "T52" -1 -1
+            (conn
+              ("0" -1 -1 "N29" -1 -1)
+            )
           )
           ("M188" "T53" -1 -1
           )
           ("M189" "T54" -1 -1
+            (conn
+              ("0" -1 -1 "N31" -1 -1)
+            )
           )
           ("M190" "T55" -1 -1
           )
@@ -1033,6 +1049,20 @@
           ("M276" "T108" -1 -1
             (conn
               ("0" -1 -1 "N26" -1 -1)
+            )
+          )
+        )
+      )
+      ("I41" "page1_i49" "S6"
+        (pins
+          ("M277" "T107" -1 -1
+            (conn
+              ("0" -1 -1 "N14" -1 -1)
+            )
+          )
+          ("M278" "T108" -1 -1
+            (conn
+              ("0" -1 -1 "N32" -1 -1)
             )
           )
         )

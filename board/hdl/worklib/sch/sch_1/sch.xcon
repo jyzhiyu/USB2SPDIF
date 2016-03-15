@@ -5,15 +5,15 @@
     <schemaVersion>16.5</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2016-01-26T19:49:03</modificationTime>
+    <modificationTime>2016-03-15T18:03:14</modificationTime>
     <savedLibrary>usb2iterface_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="sch" view="sch_1">
       <lastids>
-        <instanceid>40</instanceid>
-        <netid>28</netid>
-        <insttermid>276</insttermid>
+        <instanceid>41</instanceid>
+        <netid>32</netid>
+        <insttermid>278</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -809,6 +809,22 @@
           <name>utxd</name>
         </net>
         <net>
+          <id>N29</id>
+          <name>iis-bck</name>
+        </net>
+        <net>
+          <id>N30</id>
+          <name>iis-data</name>
+        </net>
+        <net>
+          <id>N31</id>
+          <name>iis-ws</name>
+        </net>
+        <net>
+          <id>N32</id>
+          <name>unnamed_1_atsam3u1cb-au_i11_fwup</name>
+        </net>
+        <net>
           <id>N1</id>
           <name>supply_0</name>
           <scope>global</scope>
@@ -1134,6 +1150,7 @@
               <id>M123</id>
               <termid>T88</termid>
               <connections>
+                <connection net="N32" />
               </connections>
             </pin>
             <pin>
@@ -1578,6 +1595,7 @@
               <id>M185</id>
               <termid>T50</termid>
               <connections>
+                <connection net="N30" />
               </connections>
             </pin>
             <pin>
@@ -1590,6 +1608,7 @@
               <id>M187</id>
               <termid>T52</termid>
               <connections>
+                <connection net="N29" />
               </connections>
             </pin>
             <pin>
@@ -1602,6 +1621,7 @@
               <id>M189</id>
               <termid>T54</termid>
               <connections>
+                <connection net="N31" />
               </connections>
             </pin>
             <pin>
@@ -2785,6 +2805,41 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I41</id>
+          <cellid>S6</cellid>
+          <name>page1_i49</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M277</id>
+              <termid>T107</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M278</id>
+              <termid>T108</termid>
+              <connections>
+                <connection net="N32" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2820,6 +2875,9 @@
             <physicalPageNumber>1</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="iis-bck"></net>
+              <net ref="iis-data"></net>
+              <net ref="iis-ws"></net>
               <net ref="nrstb"></net>
               <net ref="supply_0"></net>
               <net ref="swclk"></net>
@@ -2828,6 +2886,7 @@
               <net ref="unnamed_1_atsam3u1cb-au_i11_dfsdp"></net>
               <net ref="unnamed_1_atsam3u1cb-au_i11_dhsdm"></net>
               <net ref="unnamed_1_atsam3u1cb-au_i11_dhsdp"></net>
+              <net ref="unnamed_1_atsam3u1cb-au_i11_fwup"></net>
               <net ref="unnamed_1_atsam3u1cb-au_i11_xin"></net>
               <net ref="unnamed_1_atsam3u1cb-au_i11_xout"></net>
               <net ref="unnamed_1_atsam3u1cb-au_i12_vbg"></net>
@@ -2880,6 +2939,7 @@
               <instance ref="i45"></instance>
               <instance ref="i47"></instance>
               <instance ref="i48"></instance>
+              <instance ref="i49"></instance>
             </instances>
           </page>
         </pages>

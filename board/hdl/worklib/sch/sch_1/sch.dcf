@@ -7,7 +7,7 @@
 			( 16.5 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 28 )
+			( logicalViewRevNum 30 )
 			( physicalViewRevNum 0 )
 			( otherViewRevNum 0 )
 		)
@@ -80,7 +80,7 @@
 				( Status  sProperty  sPackage )
 			)
 			( Objects
-				( ValidObjects  oGate  oBlock  oPart  oDesign  oSystem  oGateDefn  oPartDefn )
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
 				( NoInherit
 					( oGate oPin )
 				)
@@ -235,6 +235,18 @@
 			( signal "@usb2iterface_lib.sch(sch_1):utxd"
 				( objectStatus "utxd" )
 			)
+			( signal "@usb2iterface_lib.sch(sch_1):\iis-bck\"
+				( objectStatus "iis-bck" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\iis-data\"
+				( objectStatus "iis-data" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\iis-ws\"
+				( objectStatus "iis-ws" )
+			)
+			( signal "@usb2iterface_lib.sch(sch_1):\unnamed_1_atsam3u1cb-au_i11_fwup\"
+				( objectStatus "unnamed_1_atsam3u1cb-au_i11_fwup" )
+			)
 			( gate "@usb2iterface_lib.sch(sch_1):page1_i13"
 				( attribute "CDS_LIB" "usb2iterface_lib"
 					( Origin gPackager )
@@ -269,7 +281,7 @@
 				( attribute "VER" "2"
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(-775,2650)"
+				( attribute "XY" "(-1200,2675)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "ATSAM3U1CB-AU"
@@ -1819,6 +1831,45 @@
 				)
 				( objectStatus "PAGE1_I48" )
 			)
+			( gate "@usb2iterface_lib.sch(sch_1):page1_i49"
+				( attribute "CDS_LIB" "discrete"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LMAN_SYM_OUTLINE" "-50,25,50,-25"
+					( Origin gPackager )
+				)
+				( attribute "INDEX" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "SMT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "RES"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "10KR|J|0603"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-5800,2250)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RES"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RES_SMT-10KR|J|0603,1"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE1_I49" )
+			)
 			( pin "@usb2iterface_lib.sch(sch_1):page1_i13:pb24"
 				( attribute "PN" "58"
 					( Origin gPackager )
@@ -2612,6 +2663,10 @@
 			( pin "@usb2iterface_lib.sch(sch_1):page1_i48:\1\"
 			)
 			( pin "@usb2iterface_lib.sch(sch_1):page1_i48:\2\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i49:\1\"
+			)
+			( pin "@usb2iterface_lib.sch(sch_1):page1_i49:\2\"
 			)
 		)
 	)

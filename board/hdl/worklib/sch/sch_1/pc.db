@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014 on Tue Jan 26 19:49:03 2016
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 16.5-S056 (v16-5-13EB) 5/26/2014 on Tue Mar 15 18:03:14 2016
 #ISCELL
   standard b#20size#20page *
   *
@@ -124,7 +124,13 @@
   page1_i48
 #CELL
   discrete res *
+  page1_i49
+#CELL
+  discrete res *
   page1_i5
+#ISCELL
+  standard vcc_bar *
+  page1_i50
 #CELL
   discrete res *
   page1_i6

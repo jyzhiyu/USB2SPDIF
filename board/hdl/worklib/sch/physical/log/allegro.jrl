@@ -1,15 +1,22 @@
-\t (00:00:00) allegro 16.5 S057 (v16-5-13DL) i86
-\t (00:00:00)     Journal start - Fri Jan 22 17:07:57 2016
-\t (00:00:00)         Host=RD-ZHENGZHIYU User=jyzhiyu Pid=7184 CPUs=4
-\t (00:00:00) 
-\t (00:00:00) Starting new design...
-\i (00:00:00) trapsize 635
-\i (00:00:00) trapsize 624
-\i (00:00:01) trapsize 637
-\i (00:00:01) trapsize 1044
-\i (00:00:01) generaledit 
-\i (00:00:03) save_as 
-\i (00:00:09) fillin "usb2interface.brd"
-\i (00:00:10) generaledit 
-\i (00:00:11) exit 
-\t (00:00:11)     Journal end - Fri Jan 22 17:08:09 2016
+\t (00:00:03) allegro 16.5 S057 (v16-5-13DL) i86
+\t (00:00:03)     Journal start - Thu Feb 18 16:59:22 2016
+\t (00:00:03)         Host=RD-ZHENGZHIYU User=jyzhiyu Pid=1956 CPUs=4
+\t (00:00:03) 
+\t (00:00:04) Opening existing design...
+\w (00:00:04) WARNING(SPMHDB-214): Allegro PCB Design GXL (legacy) opening an Allegro XL design.
+\w (00:00:04) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:00:04) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro XL). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:00:18) fillin confirm
+\d (00:00:18) Database opened: C:/Users/jyzhiyu/Dropbox/work/USB2SPDIF/board/hdl/worklib/sch/physical/usb2interface.brd
+\i (00:00:19) trapsize 1086
+\i (00:00:19) trapsize 1043
+\i (00:00:19) trapsize 1090
+\i (00:00:19) trapsize 1044
+\i (00:00:19) trapsize 1044
+\i (00:00:19) generaledit 
+\i (00:00:20) open 
+\i (00:00:40) fillin "C:\Users\jyzhiyu\Desktop\wifiLed\worklib\wifi_led\physical\wifi_led2.brd"
+\i (00:00:40) cd "C:\Users\jyzhiyu\Desktop\wifiLed\worklib\wifi_led\physical"
+\t (00:00:40) Opening existing design...
+\i (00:00:40) trapsize 3071
+\t (00:00:40)     Journal end - Thu Feb 18 16:59:59 2016

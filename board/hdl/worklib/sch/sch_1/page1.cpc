@@ -123,7 +123,13 @@
   page1_i48
 #CELL
   discrete res *
+  page1_i49
+#CELL
+  discrete res *
   page1_i5
+#ISCELL
+  standard vcc_bar *
+  page1_i50
 #CELL
   discrete res *
   page1_i6
